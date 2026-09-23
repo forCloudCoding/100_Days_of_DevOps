@@ -4,26 +4,26 @@ In a bid to automate backup processes, the `xFusionCorp Industries` sysadmin tea
 
 
 ## Task :
-
+The task is to grant executable permissions to the `/tmp/xfusioncorp.sh` script on `App Server 1`. Additionally, ensure that all users have the capability to execute it.
 
 ## Solution :
 
-### Step 1 : Check current file permissions
+### 🔷 Step 1 : Check current file permissions
 List the files in /tmp directory to list the current permissions of xfusioncorp.sh.
 ```
 ls -l /tmp
 ```
-### Step 2 : Add executable permissions to all users
+### 🔷 Step 2 : Add executable permissions to all users
 Add executable permissions to all users (owner, group, others) for the script file.
 ```
 sudo chmod a+x /tmp/xfusioncorp.sh
 ```
-### Step 3 : Verify the updated permissions
+### 🔷 Step 3 : Verify the updated permissions
 Verify the updated permissions to confirm.
 ```
 ls -l /tmp/xfusioncorp.sh
 ```
-### Step 4 : Test script execution
+### 🔷 Step 4 : Test script execution
 Run the script to ensure it executes successfully.
 ```
 bash /tmp/xfusioncorp.sh

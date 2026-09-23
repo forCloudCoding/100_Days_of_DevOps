@@ -1,5 +1,5 @@
 
-# Day 03: 
+# Day 03 : Secure Root SSH Access
 Following security audits, the `xFusionCorp Industries` security team has rolled out new protocols, including the restriction of direct root SSH login.
 
 
